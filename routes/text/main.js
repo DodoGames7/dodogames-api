@@ -3,7 +3,7 @@ module.exports = {
     code: `
 $send[200;json;{
 text: 'Welcome to the API.',
-routes: [
+endpoints: [
 '/text/owoify',
 '/image/simp',
 '/image/rankcard'
