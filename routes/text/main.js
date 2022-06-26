@@ -11,8 +11,8 @@ endpoints: [
 other: [
 'color'
 ]
-api-itself:[
-'api/version',
+api-itself: [
+'dodogames/version',
 'dodogames/discord',
 'dodogames/source'
 ]
