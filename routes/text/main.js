@@ -11,6 +11,11 @@ endpoints: [
 other: [
 'color'
 ]
+api-itself:[
+'api/version',
+'dodogames/discord',
+'dodogames/source'
+]
 }]
 `
 }
