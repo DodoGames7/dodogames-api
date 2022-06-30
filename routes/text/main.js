@@ -6,7 +6,8 @@ text: 'Welcome to the API.',
 endpoints: [
 '/text/owoify',
 '/image/simp',
-'/image/rankcard'
+'/image/rankcard',
+'/image/wanted'
 ]
 other: [
 'color'
