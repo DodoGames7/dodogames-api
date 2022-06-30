@@ -10,12 +10,12 @@ endpoints: [
 '/image/wanted'
 ]
 other: [
-'color'
+'/color'
 ]
 api-itself: [
-'dodogames/version',
-'dodogames/discord',
-'dodogames/source'
+'/dodogames/version',
+'/dodogames/discord',
+'/dodogames/source'
 ]
 }]
 `
