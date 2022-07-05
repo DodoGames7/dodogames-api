@@ -1,7 +1,11 @@
 const { API } = require('easy-api.ts')
 
 const api = new API({
-    port: 3000
+    port: 3000,
+  database: {
+        enabled: true,
+        type: 'default'
+  }
 })
 
 api.routes.add({

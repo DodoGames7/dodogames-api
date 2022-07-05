@@ -21,5 +21,9 @@
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "better-sqlite3": "^7.5.3",
+    "quick.db": "^9.0.5"
+  }
 }
