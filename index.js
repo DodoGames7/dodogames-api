@@ -1,7 +1,7 @@
 const { API } = require('easy-api.ts')
 
 const api = new API({
-    port: 3000,
+    port: process.env.PORT || 3000,
   database: {
         enabled: true,
         type: 'default'
@@ -25,21 +25,9 @@ api.routes.add({
     `
 })
 
-api.routes.add({
-  path: '/test',
-  code: `$send[200;canvas;$default]
-  $drawText[$getQuery[text];20;20;450;400] 
-$createCanvas[512;512]
-$if[$getQuery[text]==undefined;400;{
-    "status": 400,
-    "means": "Bad request.",
-    "text": "Missing query parameter 'text'."
-}]
-`
-})
 
 // Lets load the handler...
 api.routes.load('./routes').then(() => {
-    console.log('Source loaded.')
+    console.log('Api loaded! DodoGames api can now be used!')
     api.connect() // We're connecting to the API when the source is loaded.
 })

@@ -1,27 +1,16 @@
 {
-  "name": "glitch-hello-node",
-  "version": "0.1.0",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
-  "main": "server.js",
+  "name": "dodogames-api",
+  "version": "1.0.4-beta",
+  "description": "Simple api made for fun using easy-api.ts",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "easy-api.ts": "^1.0.0",
-    "translate-google": "^1.5.0"
-  },
-  "engines": {
-    "node": "16.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+    "easy-api.ts": "^2.2.0"
   },
   "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ],
+  "keywords": [],
   "devDependencies": {
     "better-sqlite3": "^7.5.3",
     "quick.db": "^9.0.5"

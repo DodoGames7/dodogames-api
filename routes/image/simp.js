@@ -1,3 +1,4 @@
+// Mostly used from easy-api.ts template for learning. Credits to that as well
 module.exports = {
     path: '/image/simp',
     code: `

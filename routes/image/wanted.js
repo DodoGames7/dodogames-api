@@ -13,5 +13,6 @@ $loadImage[avatar;url;$getQuery[avatar]]
 $if[$getQuery[avatar]==undefined;400;{
 error: 'Missing query parameter called image.'
 }]
+
 `
 }

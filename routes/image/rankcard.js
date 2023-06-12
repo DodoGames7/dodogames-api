@@ -1,3 +1,4 @@
+// Credits to the person who made this.
 module.exports = {
     path: '/image/rankcard',
     code: `

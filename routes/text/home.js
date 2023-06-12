@@ -7,7 +7,8 @@ endpoints: [
 '/text/owoify',
 '/image/simp',
 '/image/rankcard',
-'/image/wanted'
+'/image/wanted',
+'/fun/8ball'
 ]
 other: [
 '/color'
