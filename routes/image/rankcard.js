@@ -1,4 +1,4 @@
-// Credits to the person who made this.
+// Credits to the person who made this. This is not created by me!
 module.exports = {
     path: '/image/rankcard',
     code: `

@@ -1,3 +1,4 @@
+// Credits to easy-api.ts template
 module.exports = {
     path: '/text/owoify',
     code: `
