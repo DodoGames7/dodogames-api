@@ -16,7 +16,8 @@ other: [
 api-itself: [
 '/dodogames/version',
 '/dodogames/discord',
-'/dodogames/source'
+'/dodogames/source',
+'/dodogames/info'
 ]
 }]
 `
