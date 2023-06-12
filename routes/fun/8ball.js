@@ -1,6 +1,6 @@
 module.exports = {
-    path: '/fun/8ball',
+    path: '/8ball',
     code: `$send[200;json;{
-    8ball: $random[yes;no;maybe]
+    answer: $random[yes;no;maybe]
     }]`
   }
