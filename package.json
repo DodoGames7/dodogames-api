@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "easy-api.ts": "^2.2.0"
+    "easy-api.ts": "^2.2.0-at"
   },
   "license": "MIT",
   "keywords": [],
