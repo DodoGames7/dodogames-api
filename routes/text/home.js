@@ -8,7 +8,8 @@ endpoints: [
 '/image/simp',
 '/image/rankcard',
 '/image/wanted',
-'/8ball'
+'/8ball',
+'/randomtopic'
 ]
 other: [
 '/color'
