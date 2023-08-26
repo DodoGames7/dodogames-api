@@ -1,6 +1,6 @@
 {
   "name": "dodogames-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple api made for fun using easy-api.ts",
   "main": "index.js",
   "scripts": {
