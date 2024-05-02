@@ -1,6 +1,6 @@
 {
   "name": "dodogames-api",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An easy-api.ts made for the purpose of entertainment.",
   "main": "index.js",    
   "scripts": {
@@ -8,7 +8,7 @@
         "test": "node ."
   },
   "dependencies": {
-    "easy-api.ts": "^3.0.2"
+    "easy-api.ts": "^3.2.1"
   },
   "license": "MIT",
   "keywords": [],
