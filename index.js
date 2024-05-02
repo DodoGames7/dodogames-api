@@ -1,4 +1,4 @@
-const { API } = require("easy-api.ts"); // Use: import { API } from 'easy-api.ts'; for TypeScript.
+const { API } = require("easy-api.ts");
 
 const api = new API({
     reverse: false,
